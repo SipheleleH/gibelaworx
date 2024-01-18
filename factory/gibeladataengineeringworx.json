@@ -1,0 +1,9 @@
+{
+	"name": "gibeladataengineeringworx",
+	"location": "southafricanorth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2bb96126-dd3e-4353-9dd1-e6415e44498a",
+		"tenantId": "fb1707bc-3a83-462b-b050-cdcb136db17e"
+	}
+}

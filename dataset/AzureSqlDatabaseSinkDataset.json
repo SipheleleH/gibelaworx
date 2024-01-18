@@ -1,0 +1,23 @@
+{
+	"name": "AzureSqlDatabaseSinkDataset",
+	"properties": {
+		"description": "Connection to your destination data store.",
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"sinkTableName": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "app_data"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

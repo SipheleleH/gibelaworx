@@ -1,0 +1,52 @@
+{
+	"name": "AppData_Stage",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Train_Number",
+				"type": "nvarchar"
+			},
+			{
+				"name": "PAC_Date",
+				"type": "date"
+			},
+			{
+				"name": "Warranty_Status",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Location",
+				"type": "nvarchar"
+			},
+			{
+				"name": "RFS_Status",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Regime_Category",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Actual_Mileage",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Forecast_Mileage",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "app_data_stage"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
